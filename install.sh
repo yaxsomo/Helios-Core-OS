@@ -10,3 +10,5 @@ sudo apt-get -f -y install \
     mono-complete curl python3-distutils repo pseudo python3-sphinx \
     g++-multilib libc6-dev-i386 jq git-lfs pigz zstd liblz4-tool \
     cpio file zstd lz4
+# Install host packages
+sudo apt-get install xinetd tftpd nfs-kernel-server minicom build-essential libncurses5-dev autoconf automake dos2unix screen lrzsz lzop u-boot-tools

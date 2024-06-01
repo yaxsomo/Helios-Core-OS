@@ -21,18 +21,25 @@ sudo apt-get install xinetd tftpd nfs-kernel-server minicom build-essential libn
 git clone https://git.yoctoproject.org/poky
 cd poky/
 git checkout -t origin/kirkstone -b helios-kirkstone
-
+git pull
 
 git clone https://git.yoctoproject.org/meta-arm
 cd meta-arm/
 git checkout -t origin/kirkstone -b helios-kirkstone
+git pull
 cd ..
 
 
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded/
 git checkout -t origin/kirkstone -b helios-kirkstone
+git pull
 cd ..
 
 
 git clone https://github.com/yaxsomo/meta-helios-splashscreen.git
+cd meta-helios-splashscreen/
+git pull
+cd ..
+
+source oe-init-build-env

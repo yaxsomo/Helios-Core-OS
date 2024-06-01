@@ -32,7 +32,8 @@ git clone https://github.com/yaxsomo/Helios-Core-OS
 Installing the dependencies :
 ```sh
 cd Helios-Core-OS
-./install_dependencies.sh
+sudo chmod +x install.sh
+./install.sh [yocto_release]
 ```
 
 ### Building for emulation

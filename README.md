@@ -29,12 +29,20 @@ git clone https://github.com/yaxsomo/Helios-Core-OS
 ```
 > Note: The installation might take some time.
 
-Installing the dependencies :
+Installing the dependencies & setting up the environment layers :
 ```sh
 cd Helios-Core-OS
 sudo chmod +x install.sh
 ./install.sh [yocto_release]
 ```
+Available arguments (yocto releases) : 
+
+   - `scarthgap` 
+   - `nanbield` 
+   - `langdale` 
+   - `kirkstone` 
+   - `dunfell` 
+   - `mickledore`
 
 ### Building for emulation
 

@@ -1,7 +1,9 @@
 <p align="center">
-  <img src="https://github.com/yaxsomo/meta-helios-splashscreen/assets/71334330/ec6dd976-45ce-4c1f-83a9-f6af8dd55fa8" alt="meta-helios-splashscreen logo">
+  <img src="https://github.com/yaxsomo/Helios-Core-OS/assets/71334330/f5d40257-9991-4e57-8e69-838fdfcbfa33" alt="meta-helios-splashscreen logo">
 </p>
+
 #
+
 This repository is dedicated to the Helios Single Board Computer Operating System development as well as it's emulation.
 
 ## Introduction

@@ -50,7 +50,21 @@ Available arguments (yocto releases) :
 
 ### Building for emulation
 
-TBA
+For now, available build options are the following ones (proven to work successfully) : 
+- Base build options :
+   - core-image-minimal
+   - core-image-full-cmdline
+   - meta-toolchain
+   - meta-ide-support
+- Graphical User Interface build options :
+   - bitbake core-image-minimal-xfce
+   - core-image-sato
+   - core-image-weston
+
+Usage :
+```bash
+bitbake [build-option]
+```
 
 ### Building for the board 
 

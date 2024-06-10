@@ -1,8 +1,0 @@
-[submodule "poky"]
-	path = poky
-	url = https://git.yoctoproject.org/poky
-	branch = kirkstone
-[submodule "meta-arm"]
-	path = poky/meta-arm
-	url = https://git.yoctoproject.org/meta-arm
-	branch = kirkstone

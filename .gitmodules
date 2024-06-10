@@ -1,0 +1,3 @@
+[submodule "poky"]
+	path = poky
+	url = https://git.yoctoproject.org/poky

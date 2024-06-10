@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/yaxsomo/Helios-Core-OS/assets/71334330/f5d40257-9991-4e57-8e69-838fdfcbfa33" alt="meta-helios-splashscreen logo">
+  <img src="https://github.com/yaxsomo/Helios-Core-OS/assets/71334330/b9eb0759-d8c2-428e-a764-d8835868768b" alt="meta-helios-splashscreen logo">
 </p>
+
 
 #
 

@@ -20,7 +20,6 @@ Helios Core OS is the customized Operating System for the XXX board based on Yoc
 Helios Core OS is based on Yocto and emulated using QEMU.
 - [Yocto] - Create custom Linux-based systems regardless of the hardware architecture
 - [QEMU] - A generic and open source machine emulator and virtualizer
-- [AM68 SDK] - The SDK provided by Texas Instrument compatible for the AM68x Microprocessor Series. 
 
 ## Installing
 
@@ -29,24 +28,31 @@ This script will install all dependencies for the project and build the image fo
 
 First, clone the repository :
 ```sh
-git clone https://github.com/yaxsomo/Helios-Core-OS
+git clone --recurse-submodules https://github.com/yaxsomo/Helios-Core-OS
 ```
-> Note: The installation might take some time.
+With this command, the default branch will be `kirkstone`. If you want to choose which brach to clone, use the command below instead : 
 
-Installing the dependencies & setting up the environment layers :
 ```sh
-cd Helios-Core-OS
-sudo chmod +x install.sh
-./install.sh [yocto_release]
+git clone -b [branch_name] --recurse-submodules https://github.com/yaxsomo/Helios-Core-OS
 ```
-Available arguments (yocto releases) : 
+Available branches (yocto releases) : 
 
    - `scarthgap` 
-   - `nanbield` 
-   - `langdale` 
    - `kirkstone` 
-   - `dunfell` 
-   - `mickledore`
+
+> Note: The cloning process might take some time.
+
+Installing the dependencies:
+```sh
+sudo chmod +x install_dependencies.sh
+./install_dependencies.sh
+```
+Setting up the environment branches for every submodule (recursive) :
+```sh
+sudo chmod +x normalize_to_branch.sh
+./normalize_to_branch.sh [branch_name]
+```
+> Note: Those commands have to be executed at the repository's root directory.
 
 ### Building for emulation
 

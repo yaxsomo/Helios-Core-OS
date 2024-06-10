@@ -9,7 +9,7 @@ This repository is dedicated to the Helios Single Board Computer Operating Syste
 
 ## Introduction
 
-Helios Core OS is the customized Operating System for the XXX board based on Yocto. It was customized to be compatible with the AM68x microprocessor series from Texas Instruments.
+Helios Core OS is a custom Operating System for the Nyx Core SoM board, based on Yocto. It's designed to be tailored with the AM68x microprocessor series from Texas Instruments.
 
 ## Features
 
